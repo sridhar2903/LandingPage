@@ -207,7 +207,7 @@ body{
  
 
 }
-@media only screen and (min-width:1400px) and (max-width:1920px)
+@media only screen and (max-width:1920px)
 {
     .navflex
     {
@@ -225,4 +225,19 @@ body{
     
 
   
+}
+
+
+@media only screen and(min-width:1400px) and (max-width:1900px)
+{
+    body
+    {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .navflex
+    {
+        gap: 60px;
+    }
+
 }
