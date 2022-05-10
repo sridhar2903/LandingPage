@@ -169,8 +169,7 @@ const Home = () => {
 <br/><br/>
 {/* Happy landowners Section */}
 <div className='thirdsection'>
-{/* <img src="https://static.vecteezy.com/system/resources/thumbnails/002/209/153/small/abstract-polka-dot-background-with-small-dots-free-vector.jpg"
-    alt='not found!!' className='dotImg'/> */}
+
     <br/>
     <p style={{float:"right",fontSize:"58px",color:"#FFFFFF", fontFamily: 'Oswald',position:"relative",right:"4vh"}}>
     Happy landowners with <br/>
@@ -178,7 +177,7 @@ const Home = () => {
      enhanced land value
     </p>
     <img src="https://media.istockphoto.com/photos/real-estate-agent-giving-house-keys-picture-id807295382?k=20&m=807295382&s=612x612&w=0&h=qGk7Tq8O6n4SDMkfPVWvyslPkd6FuNm-Cdl79F0XcX0="
-     alt="not found" style={{marginLeft:"40px" ,marginTop:"40px"}}/>
+     alt="not found" style={{marginLeft:"15px" ,marginTop:"40px"}}/>
 
 </div>
 

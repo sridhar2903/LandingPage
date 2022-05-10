@@ -207,11 +207,13 @@ body{
  
 
 }
-@media only screen and (max-width:1920px)
+@media only screen and (min-width:1400px) and (max-width:1920px)
 {
     .navflex
     {
-        gap: 50px;
+        gap: 80px;
+       position: relative;
+       margin-left: 10vh;
     }
     body
     {
@@ -220,24 +222,9 @@ body{
     }
     .lefticon
     {
-             margin-left: 10vh;
+             margin-left: 25vh;
     }
     
 
   
-}
-
-
-@media only screen and(min-width:1400px) and (max-width:1900px)
-{
-    body
-    {
-        margin-right: 2%;
-        margin-left: 2%;
-    }
-    .navflex
-    {
-        gap: 30px;
-    }
-
 }
