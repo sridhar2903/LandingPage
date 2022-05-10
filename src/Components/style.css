@@ -1,0 +1,228 @@
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.navflex
+{
+    display: flex;
+    gap: 70px;
+    margin-top: 20px;
+}
+.NavTitles
+{
+    font-family: 'Oswald', sans-serif;
+}
+.btnCreate
+{
+    width: 200px;
+    height: 50px;
+    margin-top: -10px;
+    color:#48B285;
+    background-color: white;
+    border: #E0E8EE 3px solid;
+    
+}
+.BeginHeading
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    color: #282F33;
+}
+
+.BeginContent
+{
+    font-family: 'Cairo', sans-serif;
+  
+    color: #999B9D;
+    font-size: 18px;
+}
+.Beginbtn
+{
+    width: 400px;
+    height: 50px;
+    background-color: #48B285;
+    border: none;
+    color:#FFFFFF;
+  
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    border-radius: 8px;
+    
+
+}
+.BeginLeftright
+{
+    position: relative;
+    left:100vh;
+}
+.lefticon
+{
+    margin-top: 15px;
+    position: relative;
+    left:50vh;
+  
+
+}
+.righticon
+{
+     margin-top: 15px;
+    position: relative;
+    left:55vh;
+}
+
+
+.Featuretitle
+{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: #282F33;
+}
+
+
+.Featuretext
+{
+    font-size: 22px;
+    font-family:'Oswald', sans-serif; 
+    color: #282F33;
+    margin-left: 30px;
+}
+.Featurecontent
+{
+    color: #999B9D;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 70px;
+}
+/* .first
+{
+    float: right;
+} */
+.flexrightFeature
+{
+    float: right;
+ display: flex;
+ flex-direction: column;
+ gap:40px
+}
+
+.flexleftFeature
+{
+    display: flex;
+    flex-direction: column;
+    gap:40px
+}
+
+
+.backgroundpart
+{
+    background-color: #FCFCFD;
+}
+.thirdsection
+{
+    background-color: #48B285;
+    height: 600px;
+}
+
+.teamsection
+
+{
+    display: flex;
+    gap:17vh;
+}
+.Valuestitle
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: #282F33;
+}
+.liststyle
+{
+    font-size: 21px;
+    font-family: 'Oswald', sans-serif;
+    color: #282F33;
+}
+
+
+.touchtitle
+{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    color: #FFFFFF;
+    
+}
+.Touchinfoone
+{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.touchsection
+{
+    background-color: #637580;
+    height: 850px;
+}
+
+.touchdetails
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+   
+}
+
+.feedbacksection
+{
+    text-align: center;
+    background-color: #FFFFFF;
+    width: 800px;
+    height: 500px;
+    padding-top: 60px;
+   margin: auto;
+}
+
+.footersection
+{
+    padding:20vh;
+   
+   display: flex;
+   gap:100px;
+   
+}
+.mainfooter
+{
+    background-color: #282F33; 
+   height: 650px;
+}
+
+.footerpara
+{
+    text-align: center;
+    color: #FCFCFD;
+    font-family: 'Oswald', sans-serif;
+ 
+
+}
+@media only screen and (min-width:1400px) and (max-width:1920px)
+{
+    .navflex
+    {
+        gap: 90px;
+    }
+    body
+    {
+        margin-right: 13%;
+        margin-left: 13%;
+    }
+    .lefticon
+    {
+             margin-left: 10vh;
+    }
+    
+
+  
+}
