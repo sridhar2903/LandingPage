@@ -211,12 +211,12 @@ body{
 {
     .navflex
     {
-        gap: 90px;
+        gap: 50px;
     }
     body
     {
-        margin-right: 13%;
-        margin-left: 13%;
+        margin-right: 8%;
+        margin-left: 8%;
     }
     .lefticon
     {
